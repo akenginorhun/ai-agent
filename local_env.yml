@@ -1,11 +1,18 @@
 name: discord_bot
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python>=3.13
   - pip
+  - selenium>=4.16.0
+  - beautifulsoup4>=4.12.2
+  - requests>=2.31.0
+  - pynacl>=1.5.0
   - pip:
     - audioop-lts>=0.2.1
     - discord-py>=2.4.0
     - mistralai>=1.4.0
     - python-dotenv>=1.0.1
+    - azure-cognitiveservices-vision-computervision>=0.9.0
+    - webdriver_manager>=4.0.1
